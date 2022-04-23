@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+nav ul li{
+    border-bottom: 1px #000 solid;
+    border-top: 1px #000 solid ;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    display: block;
+}
+h2{
+    float: left;
+}
+main img {
+    width: 50%;
+    margin: 1px auto;
+    display: block;
+}
