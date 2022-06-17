@@ -6,8 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="/Users/ronnypatel/Desktop/Desktop/Coding/Milestone-Project-1/style.css">
+    <script src="/Users/ronnypatel/Desktop/Desktop/Coding/Milestone-Project-1/index.js"></script>
 </head>
 <body>
-    <h1>TIC TAC TOE</h1>
+    <!--Home screen-->
+    <div class="start-game">
+        <h1 class="text-light">Select Character</h1>
+        <div class="profile">
+            <div class="img">
+                <img src="/Users/ronnypatel/Desktop/Desktop/Coding/Milestone-Project-1/assets/smile-face.jpeg" class="id" data-id="x" alt="">
+                <img src="/Users/ronnypatel/Desktop/Desktop/Coding/Milestone-Project-1/assets/angry-face.jpeg" class="id" data-id="y" alt="">
+            </div>
+        </div>
+        <button class="main-btn" id="startBtn">Start Game</button>
+    </div>
+    <!--game board-->
+    <div class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+       <div id="winningMessageText"></div>
+       <button id="restartButton">Restart</button>
+    </div>
 </body>
 </html>
