@@ -50,7 +50,7 @@
     font-weight: 500;
     padding: 10px 0;
     border: none;
-    background: #56baed;
+    background: blueviolet;
     border-radius: 5px;
     color: #fff;
     outline: none;
@@ -74,7 +74,7 @@
     font-weight: 500;
   }
   .select-box .credit a{
-    color: #56baed;
+    color: blueviolet;
     text-decoration: none;
   }
   .select-box .credit a:hover{
@@ -140,7 +140,7 @@
     color: blueviolet;
   }
   .players.active span:nth-child(2){
-    color: #fff;
+    color: white;
   }
   .players.active .slider{
     left: 50%;
