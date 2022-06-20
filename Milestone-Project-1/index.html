@@ -9,17 +9,28 @@
     <script src="/Users/ronnypatel/Desktop/Desktop/Coding/Milestone-Project-1/index.js"></script>
 </head>
 <body>
-    <h1>TIC TAC TOE</h1>
-    <div id="board">
-        <div data-index="1" class="block">1</div>
-        <div data-index="2" class="block">2</div>
-        <div data-index="3" class="block">3</div>
-        <div data-index="4" class="block">4</div>
-        <div data-index="5" class="block">5</div>
-        <div data-index="6" class="block">6</div>
-        <div data-index="7" class="block">7</div>
-        <div data-index="8" class="block">8</div>
-        <div data-index="9" class="block">9</div> 
-    </div>
+    <main class="background">
+        <div class="title">
+            <h1>Tic Tac Toe</h1>
+        </div>
+        <div class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </div>
+        <div class="container">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+        <div class="display announcer hide"></div>
+        <div class="controls">
+            <button id="reset">Reset</button>
+        </div>
+    </main>
 </body>
 </html>
